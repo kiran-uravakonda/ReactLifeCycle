@@ -25,6 +25,10 @@ componentDidMount(){
    
 }
 
+componentWillUnmount(){
+    console.log("componentWillUnmount or component deleted from DOM")
+}
+
   render() {
     return (
       <div>
